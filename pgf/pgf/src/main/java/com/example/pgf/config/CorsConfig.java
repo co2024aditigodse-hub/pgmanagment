@@ -18,7 +18,7 @@ public class CorsConfig {
 
                 registry.addMapping("/**")
                         .allowedOrigins(
-                                "http://localhost:3000"
+                                "http://localhost:3000","https://pg-managements.netlify.app/"
 
                         )
                         .allowedMethods(
